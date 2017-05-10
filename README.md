@@ -1,6 +1,6 @@
 # dynamarks
 
-Bash toolset to dynamically create [bashmarks](https://github.com/huyng/bashmarks). Use 'dt' to dynamcially create a bashmark for the top directories (sorted by most recently created) in the current directory. Then use 'n <num>' to jump to a specific bashmark.
+Bash toolset to dynamically create [bashmarks](https://github.com/huyng/bashmarks). Use 'dt' to dynamcially create a bashmark for the top directories (sorted by most recently created) in the current directory. Then use 'n num' to jump to a specific bashmark.
 
 ```
 $ pwd
