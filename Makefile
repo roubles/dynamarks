@@ -12,7 +12,7 @@ install:
 	@echo ''
 	@echo 'USAGE:'
 	@echo '------'
-	@echo 'dt       - Dynamically create bashmarks for sorted by time'
-	@echo 'n <num>  - Jump to bashmark listed by that number'
+	@echo 'dm       - Dynamically create and list bashmarks for top folders (sorted by most recently created)'
+	@echo 'n <num>  - Jump to dynamark listed by that number'
 
 .PHONY: all install

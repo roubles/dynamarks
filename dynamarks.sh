@@ -4,9 +4,9 @@ fi
 
 LISTSIZE=20
 
-function dt {
-    ls -d1t ${1}*/ | head -${LISTSIZE} | awk -v i=1 '{printf("%4s)  \033[0;33m%-20s\033[0m\n", i++, $0);}'
-    ls -d1t ${1}*/ | head -${LISTSIZE} | awk -v P="$(pwd)" '{print P "/" $0}' > $SDIRSDYNAMIC
+function dm {
+    ls -d1t ${1}*/ 2>/dev/null | head -${LISTSIZE} | awk -v i=1 '{printf("%4s)  \033[0;33m%-20s\033[0m\n", i++, $0);}'
+    ls -d1t ${1}*/ 2>/dev/null | head -${LISTSIZE} | awk -v P="$(pwd)" '{print P "/" $0}' > $SDIRSDYNAMIC
 }
 
 function n {
