@@ -2,7 +2,7 @@
 
 Bash toolset to dynamically generate [bashmarks](https://github.com/huyng/bashmarks). Use 'dm' to dynamcially create bashmarks for the top directories (sorted by most recently created) in the current directory. Then use 'n num' to jump to a specific bashmark.
 
-There is only one copy of dynamically generated bashmarks for the full box, so if you change directories, you'd have to regenerate them for the new directory. I use this mainly for my git folder.
+There is only one copy of dynamically generated bashmarks for the full box. If you want to just list the current dynamarks, type 'n' with no argument.
 
 ```
 $ pwd
@@ -20,6 +20,13 @@ $ /Users/roubles/git/fubar
 $ n 5
 $ pwd
 $ /Users/roubles/git/up
+$ n
+   1)  /Users/roubles/git/forr/
+   2)  /Users/roubles/git/bar/
+   3)  /Users/roubles/git/fubar/
+   4)  /Users/roubles/git/bashmarks/
+   5)  /Users/roubles/git/up/
+   6)  /Users/roubles/git/drill/
 ```
 
 ## Install
