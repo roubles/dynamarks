@@ -1,31 +1,29 @@
-# up
+# dynamarks
 
-A simple bash function to navigate your present working directory. Using 'up' you can go up your directory tree from both directions. Using a positive number, you go up as usual, from the left. Using a negative number, you go up from the right.
+Bash toolset to dynamically create bashmarks. Use 'dt' to dynamcially create a bashmark for the top 20 directories in the pwd. Then use 'n <num>' to jump to a specific bashmark.
 
 ```
-Usage: up <[-]n>
+$ pwd
+$ /Users/roubles
+$ dt
+   1)  foo/          
+   2)  bar/         
+   3)  fubar/  
+   4)  bashmarks/         
+   5)  up/                 
+   6)  drill/
+$ n 3
+$ pwd
+$ /Users/roubles/fubar
 
-Example:
-$ pwd
-$ /a/b/c/d/e/f
-$ up 2
-$ pwd
-$ /a/b/c/d
-
-Example:
-$ pwd
-$ /a/b/c/d/e/f
-$ up -4
-$ pwd
-$ /a/b/c/d
 ```
 
 ## Install
 
 ```
-$ git clone https://github.com/roubles/up.git
+$ git clone https://github.com/roubles/dynamarks.git
 $ cd up
 $ make install
 ```
 
-Then add 'source ~/.local/bin/up.sh' to your .bashrc file or .bash_profile file.
+Then add 'source ~/.local/bin/dynamarks.sh' to your .bashrc file or .bash_profile file.
