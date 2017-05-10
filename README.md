@@ -1,8 +1,8 @@
 # dynamarks
 
-Bash toolset to dynamically create [bashmarks](https://github.com/huyng/bashmarks). Use 'dm' to dynamcially create bashmarks for the top directories (sorted by most recently created) in the current directory. Then use 'n num' to jump to a specific bashmark.
+Bash toolset to dynamically generate [bashmarks](https://github.com/huyng/bashmarks). Use 'dm' to dynamcially create bashmarks for the top directories (sorted by most recently created) in the current directory. Then use 'n num' to jump to a specific bashmark.
 
-There is only one copy of dynamically generated bashmarks, so if you change directories, you'd have to regenerate them. I use this mainly for my git folder.
+There is only one copy of dynamically generated bashmarks for the full box, so if you change directories, you'd have to regenerate them for the new directory. I use this mainly for my git folder.
 
 ```
 $ pwd
