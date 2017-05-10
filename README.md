@@ -15,7 +15,9 @@ $ dt
 $ n 3
 $ pwd
 $ /Users/roubles/fubar
-
+$ n 5
+$ pwd
+$ /Users/roubles/up
 ```
 
 ## Install
