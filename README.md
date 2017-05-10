@@ -4,7 +4,7 @@ Bash toolset to dynamically create bashmarks. Use 'dt' to dynamcially create a b
 
 ```
 $ pwd
-$ /Users/roubles
+$ /Users/roubles/git
 $ dt
    1)  foo/          
    2)  bar/         
@@ -14,10 +14,10 @@ $ dt
    6)  drill/
 $ n 3
 $ pwd
-$ /Users/roubles/fubar
+$ /Users/roubles/git/fubar
 $ n 5
 $ pwd
-$ /Users/roubles/up
+$ /Users/roubles/git/up
 ```
 
 ## Install
