@@ -2,7 +2,7 @@
 
 Dynamically generate [bashmarks](https://github.com/huyng/bashmarks) in the current directory. 
 
-Use 'dm' to dynamcially create bashmarks for the most recently accessed directories in the current directory. Then use 'n num' to jump to a specific dynamark.
+Use 'dm' to dynamcially create [bashmarks](https://github.com/huyng/bashmarks) for the most recently accessed directories in the current directory. Then use 'n num' to jump to a specific dynamark.
 
 There is only one copy of dynamically generated dynamarks for your machine. So, if you go to a different directory, you need to regenerate the dynamarks using 'dm'.
 
