@@ -1,8 +1,12 @@
 # dynamarks
 
-Bash toolset to dynamically generate [bashmarks](https://github.com/huyng/bashmarks). Use 'dm' to dynamcially create bashmarks for the top directories (sorted by most recently created) in the current directory. Then use 'n num' to jump to a specific bashmark.
+Dynamically generate [bashmarks](https://github.com/huyng/bashmarks) in the current directory. 
 
-There is only one copy of dynamically generated bashmarks for the full box. If you want to just list the current dynamarks, type 'n' with no argument.
+Use 'dm' to dynamcially create bashmarks for the most recently accessed directories in the current directory. Then use 'n num' to jump to a specific dynamark.
+
+There is only one copy of dynamically generated dynamarks for your machine. So, if you go to a different directory, you need to regenerate the dynamarks using 'dm'.
+
+If you want to just list the current dynamarks without regenerating, type 'n' with no argument.
 
 ```
 $ pwd
