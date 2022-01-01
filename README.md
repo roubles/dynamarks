@@ -37,7 +37,7 @@ $ n
 
 ```
 $ git clone https://github.com/roubles/dynamarks.git
-$ cd up
+$ cd dynamarks
 $ make install
 ```
 
